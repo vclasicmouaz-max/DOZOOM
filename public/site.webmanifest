@@ -1,0 +1,21 @@
+{
+  "name": "DoZOOM",
+  "short_name": "DoZOOM",
+  "description": "DoZOOM offers a vast library of movies and series for online streaming. Discover your next favorite show or movie.",
+  "icons": [
+    {
+      "src": "/dozoom-logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1a0033",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "/",
+  "scope": "/",
+  "categories": ["entertainment", "video", "streaming"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
