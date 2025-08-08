@@ -81,21 +81,15 @@ export default function HomePage({ user, onLogout }: HomePageProps) {
           year: 2024,
           rating: 8.9
         },
-        {
           id: '2',
-          title: 'Devil May Cry',
-          description: 'Based on the legendary video game series, follow Dante as he battles demons in this action-packed DoZOOM original series.',
-          image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rmj1WJ97GSx7AtYRfiNqpLl9RYfwOs.png',
-          videoUrl: 'https://youtu.be/OlEqHXRrcpc',
-          type: 'series',
-          genre: 'Action, Supernatural, Adventure',
-          year: 2024,
-          rating: 9.1,
-          seasons: 1,
-          episodes: [
-            { id: '2-1', title: 'Devil Hunter', videoUrl: 'https://youtu.be/OlEqHXRrcpc', episodeNumber: 1, seasonNumber: 1 },
-            { id: '2-2', title: 'Stylish Action', videoUrl: 'https://youtu.be/OlEqHXRrcpc', episodeNumber: 2, seasonNumber: 1 }
-          ]
+          title: 'The Avengers [Hindi]',
+          description: 'Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.',
+          image: 'https://pacdn.aoneroom.com/image/2022/09/02/f61060b9b63fd63e91ca01ea852b6c31.jpg?x-oss-process=image/resize%2Cw_250',
+          videoUrl: 'https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-avengers-hindi-Wd0I9acPiT8?id=7463045102144291536&type=/movie/detail',
+          type: 'movie',
+          genre: 'Action, Advanture, Sci-Fi',
+          year: 2012,
+          rating: 8.0
         }
       ]
       setContent(defaultContent)
