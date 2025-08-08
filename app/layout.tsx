@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/dozoom-logo-cinematic.png', sizes: 'any', type: 'image/png' },
+      { url: '/dozooom.png', sizes: 'any', type: 'image/png' },
     ],
   },
   manifest: '/dozoom.webmanifest',
