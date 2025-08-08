@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       { url: '/dozooom.png', sizes: 'any', type: 'image/png' },
     ],
   },
-  manifest: '/dozoom.webmanifest',
+  manifest: '/dozooom.png',
   themeColor: '#1a0033',
   viewport: {
     width: 'device-width',
