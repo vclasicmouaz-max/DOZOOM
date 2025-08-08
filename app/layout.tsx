@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'DoZOOM',
     images: [
       {
-        url: '/dozoom-logo.png',
+        url: '/image-removebg-preview (15).png',
         width: 1200,
         height: 630,
         alt: 'DoZOOM Logo',
