@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DoZOOM - Stream Movies & Series Online',
     description: 'DoZOOM offers a vast library of movies and series for online streaming. Discover your next favorite show or movie.',
-    images: ['/dozoom-logo-cinematic.png'],
+    images: ['/dozooom.png'],
     creator: '@dozoom',
   },
   icons: {
