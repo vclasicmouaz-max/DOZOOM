@@ -84,7 +84,7 @@ export default function HomePage({ user, onLogout }: HomePageProps) {
         {
           id: '2',
           title: 'Devil May Cry',
-          description: 'Based on the legendary video game series, follow Dante as he battles demons in this action-packed Netflix original series.',
+          description: 'Based on the legendary video game series, follow Dante as he battles demons in this action-packed DoZOOM original series.',
           image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rmj1WJ97GSx7AtYRfiNqpLl9RYfwOs.png',
           videoUrl: 'https://youtu.be/OlEqHXRrcpc',
           type: 'series',
@@ -113,7 +113,7 @@ export default function HomePage({ user, onLogout }: HomePageProps) {
       const defaultDaily = {
         id: 'daily-1',
         title: 'Devil May Cry',
-        description: 'A Netflix Original Series. The legendary demon hunter Dante faces his greatest challenge yet in this stylish action series.',
+        description: 'A DoZOOM Original Series. The legendary demon hunter Dante faces his greatest challenge yet in this stylish action series.',
         image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rmj1WJ97GSx7AtYRfiNqpLl9RYfwOs.png',
         videoUrl: 'https://youtu.be/OlEqHXRrcpc',
         type: 'series' as const,

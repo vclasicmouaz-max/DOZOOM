@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'DoZOOM',
     images: [
       {
-        url: '/image-removebg-preview (15).png',
+        url: '/dozoom-logo-cinematic.png',
         width: 1200,
         height: 630,
         alt: 'DoZOOM Logo',
@@ -32,22 +32,22 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DoZOOM - Stream Movies & Series Online',
     description: 'DoZOOM offers a vast library of movies and series for online streaming. Discover your next favorite show or movie.',
-    images: ['/image-removebg-preview (15).png'],
+    images: ['/dozoom-logo-cinematic.png'],
     creator: '@dozoom',
   },
   icons: {
     icon: [
-      { url: '/image-removebg-preview (15).png', sizes: 'any', type: 'image/png' },
+      { url: '/dozoom-logo-cinematic.png', sizes: 'any', type: 'image/png' },
     ],
   },
-  manifest: '/image-removebg-preview (15).png',
+  manifest: '/dozoom.webmanifest',
   themeColor: '#1a0033',
   viewport: {
     width: 'device-width',
     initialScale: 1,
     maximumScale: 1,
   },
-    generator: 'Your Movie & series'
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -62,7 +62,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#1a0033" />
         <meta name="msapplication-config" content="/dozoom-browserconfig.xml" />
         
-        {/* Netflix Brand Colors */}
+        {/* DoZOOM Brand Colors */}
         <style dangerouslySetInnerHTML={{
           __html: `
             :root {
@@ -88,7 +88,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
-        {/* Structured Data for Netflix */}
+        {/* Structured Data for DoZOOM */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -125,7 +125,7 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Prevent right-click context menu (Netflix-like behavior)
+              // Prevent right-click context menu (DoZOOM-like behavior)
               document.addEventListener('contextmenu', function(e) {
                 e.preventDefault();
               });
@@ -139,7 +139,7 @@ export default function RootLayout({
 
               // Keyboard shortcuts
               document.addEventListener('keydown', function(e) {
-                // Disable F12, Ctrl+Shift+I, Ctrl+U (Netflix-like protection)
+                // Disable F12, Ctrl+Shift+I, Ctrl+U (DoZOOM-like protection)
                 if (e.key === 'F12' || 
                     (e.ctrlKey && e.shiftKey && e.key === 'I') ||
                     (e.ctrlKey && e.key === 'u')) {
@@ -201,7 +201,7 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Netflix-style analytics tracking
+              // DoZOOM-style analytics tracking
               (function() {
                 const analytics = {
                   track: function(event, data) {

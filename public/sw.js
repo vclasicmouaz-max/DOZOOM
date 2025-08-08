@@ -2,7 +2,7 @@ const CACHE_NAME = 'dozoom-v1';
 const urlsToCache = [
   '/',
   '/globals.css',
-  '/dozoom-logo.png', // DoZOOM logo
+  '/dozoom-logo-cinematic.png', // DoZOOM cinematic logo
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'
 ];
 
@@ -46,8 +46,8 @@ function doBackgroundSync() {
 self.addEventListener('push', function(event) {
   const options = {
     body: event.data ? event.data.text() : 'New content available on DoZOOM!',
-    icon: '/dozoom-logo.png',
-    badge: '/dozoom-logo.png',
+    icon: '/dozoom-logo-cinematic.png',
+    badge: '/dozoom-logo-cinematic.png',
     vibrate: [100, 50, 100],
     data: {
       dateOfArrival: Date.now(),
