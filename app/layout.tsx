@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DoZOOM - Stream Movies & Series Online',
     description: 'DoZOOM offers a vast library of movies and series for online streaming. Discover your next favorite show or movie.',
-    images: ['/dozoom-logo.png'],
+    images: ['/image-removebg-preview (15).png'],
     creator: '@dozoom',
   },
   icons: {
     icon: [
-      { url: '/dozoom-logo.png', sizes: 'any', type: 'image/png' },
+      { url: '/image-removebg-preview (15).png', sizes: 'any', type: 'image/png' },
     ],
   },
   manifest: '/dozoom.webmanifest',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 1,
   },
-    generator: 'v0.dev'
+    generator: 'Your Movie & series'
 }
 
 export default function RootLayout({
